@@ -1,0 +1,2 @@
+source $DDS_ROOT/setenv.sh
+$JAVA_HOME/bin/java -Djava.library.path=/home/agilehealth_ai/MiscellaneousScripts/openDDS_test/messenger_idl:$DDS_ROOT/lib -Dfile.encoding=UTF-8 -classpath /home/agilehealth_ai/MiscellaneousScripts/openDDS_test/Publisher/bin:/home/agilehealth_ai/MiscellaneousScripts/openDDS_test/messenger_idl/messenger_idl_test.jar:$DDS_ROOT/tao_java.jar:$DDS_ROOT/lib/OpenDDS_DCPS.jar:$DDS_ROOT/lib/i2jrt.jar publisher.TestSubscriber -DCPSConfigFile /home/agilehealth_ai/MiscellaneousScripts/openDDS_test/rtps.ini
